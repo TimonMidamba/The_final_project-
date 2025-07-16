@@ -80,6 +80,6 @@ if mood:
     mood_lower = mood.lower()
     if any(word in mood_lower for word in ["sad", "stressed", "depressed", "anxious", "down", "tired", "lonely"]):
         st.warning(f"😟 It's okay to feel {mood}. You're not alone.")
-        st.info("💬 Please talk to someone you trust — a friend, a counselor, or a family member.\n\nYou're strong, and better days are coming. 🌈")
+        st.info("💬 Please talk to someone you trust — a friend, a counselor, or a family member.\n\nYou're strong, and better days are coming. ")
     else:
         st.success(f"😊 It's great to hear you're feeling {mood}. Keep going and take care of yourself! 💪")
